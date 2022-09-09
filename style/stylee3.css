@@ -1,0 +1,254 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.main_cont {
+    background-color: rgba(235, 235, 235, 0.534);
+}
+
+
+.l_check,
+.qoshimcha_check {
+    display: flex;
+    align-items: center;
+
+}
+
+.scbtn {
+    background-color: #fff;
+}
+
+.form-check-input {
+
+    margin-top: 0em;
+}
+
+.check_text {
+    font-weight: 500;
+    margin: 0 0 0 10px;
+    opacity: 0.9;
+}
+
+#non_select {
+    max-width: 240px;
+    width: 100%;
+
+}
+
+.sosiska {
+    margin-left: 85px !important;
+}
+
+.result_info {
+    position: relative;
+    margin-left: 30px;
+
+}
+
+.result_info p {
+    margin-bottom: 0 !important;
+
+}
+
+.result_info h3 {
+    margin-right: 10px;
+}
+
+.hr {
+    font-size: 8px;
+    text-align: center;
+    position: absolute;
+    width: 12px;
+    max-height: 520px;
+    padding: 10px 0 10px 0;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    -webkit-text-orientation: upright;
+    background-color: red;
+    letter-spacing: -2px;
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+
+.modal_window {
+    z-index: 44;
+    position: fixed;
+    right: 42%;
+    top: -400px;
+    background-color: #fff;
+    max-width: 360px;
+    width: 100%;
+    max-height: 240px;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.okk {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.modal_visibility {
+    top: 200px;
+
+}
+
+.modal_body_color {
+    display: none;
+    position: fixed;
+    width: 100% !important;
+    height: 100vh !important;
+    background-color: rgba(0, 0, 0, 0.74);
+    z-index: 3;
+    top: 0;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.form-check-input {
+    font-size: 50px;
+    margin-right: 0px;
+    margin-left: 0 !important;
+}
+
+.btn_katta {
+
+    max-width: 460px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_katta .form-check {
+    background-color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.modal_title{
+    color: red;
+}
+.form-check-label {
+    margin-left: 7px;
+}
+.modaltext{
+    color: red;
+}
+.modaltext2{
+    color: green;
+}
+
+@media only screen and (max-width:1102px) {
+    .hr {
+        max-height: 510px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .hr {
+        display: none;
+    }
+
+    .modal_visibility {
+        top: 100px;
+        right: 300px;
+
+    }
+
+    .modal_window {
+        z-index: 44;
+        position: fixed;
+        /* right: 42%; */
+        right: 300px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .hr {
+        display: none;
+    }
+
+    .modal_visibility {
+        top: 50px;
+        right: 300px;
+
+    }
+
+    .modal_window {
+        z-index: 44;
+        position: fixed;
+        /* right: 42%; */
+        right: 200px;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .hr {
+        display: none;
+    }
+
+    .modal_visibility {
+        top: 100px;
+        right: 300px;
+
+    }
+
+    .modal_window {
+        z-index: 44;
+        position: fixed;
+        /* right: 42%; */
+        right: 100px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .hr {
+        display: none;
+    }
+
+    .modal_visibility {
+        top: 100px;
+        right: 300px;
+
+    }
+
+    .modal_window {
+        z-index: 44;
+        position: fixed;
+        /* right: 42%; */
+        right: 6px;
+    }
+
+}
